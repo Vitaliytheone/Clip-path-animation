@@ -1,1 +1,1 @@
-Css clip-path animation blocks
+Css clip-path animated blocks
