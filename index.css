@@ -8,7 +8,6 @@ body {
     padding: 12px;
     background: white;
     border-radius: 24px;
-    box-shadow: 0 5px 15px -4px black;
     transition: background .2s ease-in-out, clip-path .2s ease-in-out;
     position: relative;
     clip-path: circle(8% at 10% 10%);
@@ -30,11 +29,15 @@ body {
     transition: opacity .2s ease-in-out;
     position: absolute;
     top: 16px;
-    left: 6px;
+    left: 9px;
 }
 
 .card-1:hover {
     clip-path: circle(75%);
+}
+
+.card-2:hover {
+   clip-path: circle(60%);
 }
 
 .wrapper {
